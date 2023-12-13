@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+
+    <title>GPA Calculator</title>
+
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+</head>
+<body>
+    <div class="container">
+        <div class="gpa-cal">
+            <h2>GPA Calculator<img src="images/icon.png" alt="icon"></h2>
+        
+            <div id="subjects">
+                <div class="row">
+                    <input type="text" id="input-box" class="subject" placeholder="Subject">
+                    <input type="number" id="input-box" class="credit" placeholder="Credit">
+                    <input type="text" id="input-box" class="grade" placeholder="Grade">
+                </div>
+            </div>
+            <div class="button">
+                <button onclick="addSubject()">Add Another Subject</button>
+                <button onclick="calculateGPA()">Calculate GPA</button>
+            </div>
+            <div id="result"></div>
+        </div>
+        <a href="https://www.linkedin.com/in/supun-gunawardhana-b7a511261/" target="_blank">@SupunG</a>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
