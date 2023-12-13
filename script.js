@@ -53,7 +53,7 @@ function calculateGPA() {
     const gpa = totalCredits > 0 ? (totalGradePoints / totalCredits).toFixed(2) : 0.0;
 
     const resultElement = document.getElementById('result');
-    resultElement.innerHTML = `Your GPA is: <span style="color: #007BFF;">${gpa}</span>&emsp; Total Credit: <span style="color: #007BFF;">${totalCredits}`;
+    resultElement.innerHTML = `Your GPA is: <span style="color: #007BFF;"> ${gpa}</span>&emsp; Total Credit: <span style="color: #007BFF;"> ${totalCredits}`;
 }
 
 function getGradePoints(grade) {
