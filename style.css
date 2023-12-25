@@ -5,10 +5,13 @@
 }
 
 .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     min-height: 100vh;
     background: linear-gradient(135deg, #153677, #4e085f);
-    padding: 10px;
 }
 
 .gpa-cal{
@@ -96,7 +99,7 @@ a {
     .gpa-cal {
         width: 75%;
         max-width: 540px;
-        margin: auto;
+        margin: 20px;
         padding: 20px;
         border-radius: 10px;
     }
